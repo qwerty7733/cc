@@ -1,0 +1,24 @@
+STEPS TO CREATE AN APPLICATION :
+
+Step No 3: Login Page (Enter your credential to login)
+1. Open Developer Console
+2. File ---> New ---> Select Apex Class(enter name to apex class and save Clt+s)
+3.Type below mentioned code
+    public class pract3 { 
+        public Double myValue = 0; 
+        public Double get() {
+            myValue = myValue+10;
+            return myValue;
+        }
+    }
+
+4. Click on Debug ---> Open Execute Acronymous Window
+
+5. Type below code(Apex Code)
+pract3 m=new pract3();
+Double Value=m.get();
+system.debug('valued='+Value);
+
+6. Click on Open log then Execute code
+
+7. Click on Debug only (You will get output)
