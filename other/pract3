@@ -1,7 +1,7 @@
 STEPS TO CREATE AN APPLICATION :
 
 Step No 3: Login Page (Enter your credential to login)
-1. Open Developer Console
+1. Open Developer Console (gear icon top right)
 2. File ---> New ---> Select Apex Class(enter name to apex class and save Clt+s)
 3.Type below mentioned code
     public class pract3 { 
